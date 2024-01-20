@@ -15,8 +15,6 @@ app.use(errorHandler);
 // define routes
 app.use("/api/v1/users", usersRouter);
 
-
-
 const port = process.env.PORT || 7000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
